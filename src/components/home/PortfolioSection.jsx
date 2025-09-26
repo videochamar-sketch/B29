@@ -271,11 +271,25 @@ const PortfolioSection = () => {
         <div className="text-center component-margin">
           <Link 
             to="/projects"
-            className="btn-pill btn-primary h-12 sm:h-16 lg:h-20 px-8 sm:px-12 lg:px-16 inline-flex items-center justify-center group"
+            className="portfolio-btn btn-pill btn-primary h-12 sm:h-16 lg:h-20 px-8 sm:px-12 lg:px-16 inline-flex items-center justify-center gap-2 sm:gap-3 group transition-all duration-300 ease-out hover:-translate-y-0.5 hover:shadow-xl hover:shadow-black/20 active:translate-y-0 active:scale-95"
           >
-            <span className="font-[font2] text-base sm:text-xl lg:text-2xl">
+            <span className="font-[font2] text-base sm:text-xl lg:text-2xl transition-colors duration-300">
               View Our Portfolio
             </span>
+            <svg 
+              className="portfolio-arrow w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6 transition-transform duration-300 ease-out group-hover:translate-x-1 animate-arrow-nudge" 
+              fill="none" 
+              stroke="currentColor" 
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path 
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+                strokeWidth={2} 
+                d="M17 8l4 4m0 0l-4 4m4-4H3" 
+              />
+            </svg>
           </Link>
         </div>
       </div>
