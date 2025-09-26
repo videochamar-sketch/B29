@@ -144,7 +144,9 @@ const Header = () => {
                   </div>
                 </div>
                 <span className="font-[font2] text-lg sm:text-xl lg:text-2xl text-white uppercase tracking-wide">
+                <span className="font-logo text-lg sm:text-xl lg:text-2xl text-white uppercase tracking-wide">
                   Amoura Works
+                </span>
                 </span>
               </Link>
             </div>
